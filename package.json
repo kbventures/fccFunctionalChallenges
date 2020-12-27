@@ -1,0 +1,19 @@
+{
+  "name": "fccfunctionalchallenges",
+  "version": "1.0.0",
+  "description": "Free Code Camp Functional Programming Challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbventures/fccFunctionalChallenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbventures/fccFunctionalChallenges/issues"
+  },
+  "homepage": "https://github.com/kbventures/fccFunctionalChallenges#readme"
+}
