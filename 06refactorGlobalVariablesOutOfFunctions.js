@@ -22,6 +22,13 @@ function add (arr, bookName) {
   let newArr = [...arr];
   newArr.push(bookName);
   return newArr;
+
+  /*
+    Alternative solution
+    function add(arr, bookName) {
+    return [...arr, bookName];
+}
+  */
   
   // Change code above this line
 }
@@ -34,6 +41,13 @@ function remove (arr, bookName) {
 
     newArr.splice(book_index, 1);
     return newArr;
+
+
+    /*
+        function remove(list, bookName) {
+        return list.filter(book => book !== bookName);
+}
+    */
 
     // Change code above this line
     }
