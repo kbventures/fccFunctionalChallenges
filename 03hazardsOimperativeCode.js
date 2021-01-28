@@ -19,16 +19,13 @@ var Window = function(tabs) {
   Window.prototype.tabClose = function (index) {
   
     // Only change code below this line
+    let concatenatedGLobalArray = [...arr];
+    console.log(concatenatedGLobalArray);
   
-    var tabsBeforeIndex = this.tabs.splice(0, index); // Get the tabs before the tab
-    // var tabsAfterIndex = this.tabs.splice(index + 1); // Get the tabs after the tab
-    // Is replaced with:
-
-    var tabsAfterIndex = this.tabs.splice(1);
-    console.log(tabsAfterIndex);
-  
-    this.tabs = tabsBeforeIndex.concat(tabsAfterIndex); // Join them together
-  
+    let sortedAscending = concatenatedGLobalArray.sort((a,b)=>{
+        return a-b; 
+    });
+    return sortedAscending;
     // Only change code above this line
   
     return this;
