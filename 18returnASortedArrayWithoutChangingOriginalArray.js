@@ -11,3 +11,11 @@ function nonMutatingSort(arr) {
   // Only change code above this line
 }
 nonMutatingSort(globalArray);
+
+
+/*
+Alternative Solution
+  return [].concat(arr).sort(function(a, b) {
+    return a - b;
+  });
+*/
