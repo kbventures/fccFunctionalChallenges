@@ -5,3 +5,18 @@ function urlSlug(title) {
     // Only change code above this line
 
     urlSlug(' Winter Is coming');
+
+
+    /* 
+    Alternative Solution:
+
+    function urlSlug(title) {
+  return title
+    .split(/\W/)
+    .filter(obj => {
+      return obj !== "";
+    })
+    .join("-")
+    .toLowerCase();
+}
+    */
